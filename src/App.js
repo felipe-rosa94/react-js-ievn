@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import {BrowserRouter, Route, Switch} from 'react-router-dom'
+import Home from './pages/Home'
+import VidaNova from './pages/VidaNova'
+import Plano from './pages/Plano'
+import Player from './pages/Player'
+import Cultos from './pages/Cultos'
+import NotFound from './pages/NotFound'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = () => {
+    return (
+        <BrowserRouter>
+            <Switch>
+                <Route exact path="/" component={Home}/>
+                <Route exact path="/vidanova" component={VidaNova}/>
+                <Route exact path="/plano" component={Plano}/>
+                <Route exact path="/player" component={Player}/>
+                <Route exact path="/cultos" component={Cultos}/>
+                <Route component={NotFound}/>
+            </Switch>
+        </BrowserRouter>
+    )
 }
 
-export default App;
+export default App
+
+

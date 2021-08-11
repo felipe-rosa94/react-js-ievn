@@ -1,0 +1,46 @@
+#cultos {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background: rgb(255, 250, 240);
+    background: linear-gradient(180deg, rgba(255, 250, 240, 1) 0%, rgba(255, 250, 250, 1) 50%, rgba(255, 255, 255, 1) 100%);
+}
+
+#section-cultos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    background: rgb(255, 250, 240);
+    background: linear-gradient(180deg, rgba(255, 250, 240, 1) 0%, rgba(255, 250, 250, 1) 50%, rgba(255, 255, 255, 1) 100%);
+}
+
+#div-cultos-container {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+#div-cultos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#label-title-cultos {
+    font-family: 'Georama', sans-serif;
+    font-size: 25px;
+    color: #333333;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#label-cultos {
+    font-size: 17px;
+    line-height: 30px;
+    font-family: 'Georama', sans-serif;
+    text-align: justify;
+}

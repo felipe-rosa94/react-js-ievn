@@ -1,0 +1,193 @@
+#plano {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background: rgb(255, 250, 240);
+    background: linear-gradient(180deg, rgba(255, 250, 240, 1) 0%, rgba(255, 250, 250, 1) 50%, rgba(255, 255, 255, 1) 100%);
+}
+
+#section-plano {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    background: rgb(255, 250, 240);
+    background: linear-gradient(180deg, rgba(255, 250, 240, 1) 0%, rgba(255, 250, 250, 1) 50%, rgba(255, 255, 255, 1) 100%);
+}
+
+#div-container-plano {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+#div-plano {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#image-plano-capa {
+    max-width: 600px;
+    margin-top: 50px;
+    border-radius: 8px;
+}
+
+#label-plano-titulo {
+    font-family: 'Georama', sans-serif;
+    font-size: 25px;
+    color: #333333;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#card-plano {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+#media-capa-plano {
+    width: 200px;
+    height: 200px;
+}
+
+#div-detalhes-plano {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#div-detalhes-plano-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+#label-tema-plano {
+    font-family: 'Georama', sans-serif;
+    font-size: 20px;
+    color: #333333;
+    margin: 10px;
+}
+
+#label-base-plano {
+    font-family: 'Georama', sans-serif;
+    font-size: 17px;
+    margin: 10px;
+}
+
+#label-audio-plano {
+    font-size: 15px;
+    margin: 10px;
+    font-style: italic;
+}
+
+#div-detalhes-plano-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#label-dia-tema {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    margin: 10px;
+    font-style: italic;
+}
+
+#div-botao-player {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    border-radius: 20px;
+    background: #9c27b0;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#label-botao-player {
+    font-family: 'Georama', sans-serif;
+    color: #ffffff;
+    margin: 8px;
+    cursor: pointer;
+    text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+    #div-container-plano {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #image-plano-capa {
+        max-width: 400px;
+    }
+
+    #media-capa-plano {
+        width: 180px;
+        height: 180px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    #media-capa-plano {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    #image-plano-capa {
+        max-width: 300px;
+    }
+
+    #media-capa-plano {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #div-container-plano {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #image-plano-capa {
+        max-width: 280px;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    #image-plano-capa {
+        max-width: 250px;
+    }
+
+    #label-plano-titulo {
+        font-size: 20px;
+    }
+
+    #label-tema-plano {
+        font-size: 17px;
+    }
+
+    #label-base-plano {
+        font-size: 15px;
+    }
+
+    #label-audio-plano {
+        font-size: 14px;
+    }
+
+    #label-botao-player {
+        font-size: 14px;
+    }
+}

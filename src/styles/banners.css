@@ -1,0 +1,107 @@
+#banners {
+
+}
+
+#carousel {
+
+}
+
+#img-banner {
+    height: 720px;
+}
+
+@media screen and (max-width: 1600px) {
+    #img-banner {
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    #img-banner {
+        height: 540px;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    #img-banner {
+        height: 512px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    #img-banner {
+        height: 480px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #img-banner {
+        height: 384px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #img-banner {
+        height: 372px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #img-banner {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #img-banner {
+        height: 225px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    #img-banner {
+        height: 202px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    #img-banner {
+        height: 155px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #img-banner {
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 384px) {
+    #img-banner {
+        height: 144px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    #img-banner {
+        height: 140px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    #img-banner {
+        height: 135px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #img-banner {
+        height: 120px;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    #img-banner {
+        height: 105px;
+    }
+}
